@@ -26,39 +26,40 @@ A university needs to track students, courses, and instructors. Students enroll 
 
 <details>
     <summary>Reveal Answer & Diagram</summary>
-    <details>
-        <summary>ER Diagram</summary>
 
-        - [ER diagram](University%20Enrollment/.excalidraw)
+<details>
+<summary>ER Diagram</summary>
+- [ER diagram](University Enrollment/ERDiagram.png)
     </details>
-    <details>
+ <details>
         <summary>Entities & Rels</summary>
-        
-        - Entities
-            - Student
-            - Course
-            - Instructor
-        - Relationships
-            - ENROLLS: STUDENT ↔ COURSE (M:N)
-                - Attributes: EnrollDate, Grade
-            - TEACHES: INSTRUCTOR ↔ COURSE (1:N)
+
+- Entities
+    - Student
+    - Course
+    - Instructor
+- Relationships
+    - ENROLLS: STUDENT ↔ COURSE (M:N)
+        - Attributes: EnrollDate, Grade
+    - TEACHES: INSTRUCTOR ↔ COURSE (1:N)
     </details>
+
     <details>
         <summary>Analysis</summary>
 
-        #### ✦ Key Concepts in This Exercise
+#### ✦ Key Concepts in This Exercise
 
-        ##### M:N Relationship with Attributes
-        - The ENROLLS relationship has its own attributes (grade, enrollment date). This is important: you CANNOT just put these on the entities — they belong to the relationship itself.
+##### M:N Relationship with Attributes
+- The ENROLLS relationship has its own attributes (grade, enrollment date). This is important: you CANNOT just put these on the entities — they belong to the relationship itself.
 
-        ##### 1:N vs M:N
-        - TEACHES is 1:N because a course has exactly one instructor. ENROLLS is M:N because many students can be in one course and one student can be in many courses.
+##### 1:N vs M:N
+- TEACHES is 1:N because a course has exactly one instructor. ENROLLS is M:N because many students can be in one course and one student can be in many courses.
 
-        ##### Derived Attribute
-        - Age is a derived attribute (dashed oval) because it can be calculated from DateOfBirth. Never store both — store the source and derive the result.
+##### Derived Attribute
+- Age is a derived attribute (dashed oval) because it can be calculated from DateOfBirth. Never store both — store the source and derive the result.
 
-        - ⚠️ Don't put grade/enrollment date on STUDENT or COURSE — they belong to the ENROLLS relationship
-        - ⚠️ Course is NOT a weak entity even though it needs an instructor — it has its own primary key (CourseCode)
-        - ⚠️ Don't forget total participation: every COURSE must have an instructor (double line on COURSE side of TEACHES)
+- ⚠️ Don't put grade/enrollment date on STUDENT or COURSE — they belong to the ENROLLS relationship
+- ⚠️ Course is NOT a weak entity even though it needs an instructor — it has its own primary key (CourseCode)
+- ⚠️ Don't forget total participation: every COURSE must have an instructor (double line on COURSE side of TEACHES)
     </details>
 </details>

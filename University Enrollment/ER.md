@@ -29,7 +29,8 @@ A university needs to track students, courses, and instructors. Students enroll 
 
 <details>
 <summary>ER Diagram</summary>
-- [ER diagram](University Enrollment/ERDiagram.png)
+           
+- [ER diagram](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/blob/main/University%20Enrollment/ERDiagram.png)
     </details>
  <details>
         <summary>Entities & Rels</summary>

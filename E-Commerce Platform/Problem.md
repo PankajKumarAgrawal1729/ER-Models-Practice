@@ -30,7 +30,7 @@ An online store sells products from multiple vendors. Customers place orders con
 <details>
 <summary>ER Diagram</summary>
            
-- [ER diagram](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/blob/main/Hospital%20Management/ERDiagram.png)
+- [ER diagram](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/blob/main/E-Commerce%20Platform/ERDiagram.png)
     </details>
  <details>
         <summary>Entities & Rels</summary>

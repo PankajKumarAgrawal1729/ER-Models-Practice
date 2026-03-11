@@ -11,7 +11,7 @@ A hospital tracks patients, doctors, and wards. Patients are admitted to wards a
 - A patient is admitted to one ward at a time. A ward can hold many patients.
 - A patient can be treated by multiple doctors. A doctor can treat multiple patients
 - Each treatment has a diagnosis, start date, and end date.
-- TEach ward has exactly one nurse-in-charge (also an employee with ID, name).
+- Each ward has exactly one nurse-in-charge (also an employee with ID, name).
 
 
 <details>

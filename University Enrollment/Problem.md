@@ -64,3 +64,11 @@ A university needs to track students, courses, and instructors. Students enroll 
 - ⚠️ Don't forget total participation: every COURSE must have an instructor (double line on COURSE side of TEACHES)
     </details>
 </details>
+
+#### Self Assessment — How did your diagram compare?
+
+- [x] I identified all 3 entities correctly
+- [x] I drew M:N for ENROLLS and 1:N for TEACHES
+- [x] I placed enrollment date and grade ON the relationship, not on entities
+- [x] I underlined the primary key attributes
+- [x] I correctly showed total participation for COURSE in TEACHES

@@ -68,3 +68,11 @@ An online store sells products from multiple vendors. Customers place orders con
 - ⚠️ Don't forget: weak entities use double rectangles AND double diamonds for their identifying relationship
     </details>
 </details>
+
+#### Self Assessment — How did your diagram compare?
+
+- [x] I drew ORDER_ITEM as a weak entity (double rectangle)
+- [x] I used a double diamond for the CONTAINS identifying relationship
+- [x] I placed UnitPrice and Quantity on ORDER_ITEM, not on PRODUCT
+- [x] I drew ShippingAddress as a multi-valued attribute (double oval)
+- [x] I drew SUPPLIES as M:N between VENDOR and PRODUCT

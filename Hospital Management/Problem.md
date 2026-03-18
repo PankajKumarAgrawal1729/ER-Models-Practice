@@ -66,3 +66,11 @@ A hospital tracks patients, doctors, and wards. Patients are admitted to wards a
 - ⚠️ If you merge DOCTOR and NURSE into EMPLOYEE, still model the different relationships separately
     </details>
 </details>
+
+#### Self Assessment — How did your diagram compare?
+
+- [x] I identified all 4 entities
+- [x] I drew TREATS as M:N with diagnosis and dates on the relationship
+- [x] I drew ADMITTED_TO as N:1 (many patients, one ward)
+- [x] I drew MANAGED_BY as 1:1
+- [x] I correctly identified all primary keys

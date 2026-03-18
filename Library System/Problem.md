@@ -30,7 +30,7 @@ A public library manages books, members, and loans. Books can have multiple auth
 <details>
 <summary>ER Diagram</summary>
            
-- [ER diagram](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/blob/main/Hospital%20Management/ERDiagram.png)
+- [ER diagram](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/blob/main/Library%20System/ERDiagram.png)
     </details>
  <details>
         <summary>Entities & Rels</summary>

@@ -30,7 +30,7 @@ A social media app allows users to post content, follow each other, and react to
 <details>
 <summary>ER Diagram</summary>
            
-- [ER diagram]()
+- [ER diagram](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/blob/main/Social%20Media%20Platform/ERDiagram.png)
     </details>
  <details>
         <summary>Entities & Rels</summary>

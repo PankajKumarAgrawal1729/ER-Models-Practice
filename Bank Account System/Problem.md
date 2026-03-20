@@ -30,7 +30,7 @@ A bank manages customers, accounts, and transactions. A customer can have multip
 <details>
 <summary>ER Diagram</summary>
            
-- [ER diagram]()
+- [ER diagram](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/blob/main/Bank%20Account%20System/ERDiagram.png)
     </details>
  <details>
         <summary>Entities & Rels</summary>

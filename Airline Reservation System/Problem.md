@@ -31,7 +31,7 @@ An airline manages flights, aircraft, passengers, and reservations. This is a co
 <details>
 <summary>ER Diagram</summary>
            
-- [ER diagram](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/blob/main/Bank%20Account%20System/ERDiagram.png)
+- [ER diagram](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/blob/main/Airline%20Reservation%20System/ERDiagram.png)
     </details>
  <details>
         <summary>Entities & Rels</summary>

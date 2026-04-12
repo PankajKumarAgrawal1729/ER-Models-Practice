@@ -6,3 +6,4 @@
 4. [Library System](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/tree/main/Library%20System)
 5. [Social Media Platform](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/tree/main/Social%20Media%20Platform)
 6. [Bank Account System](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/tree/main/Bank%20Account%20System)
+7. [Airline Reservation System](https://github.com/PankajKumarAgrawal1729/ER-Models-Practice/tree/main/Airline%20Reservation%20System)
